@@ -223,7 +223,7 @@ const HomePage: React.FC = () => {
                 viewport={{ once: true }}
                 whileHover={{ y: -10, transition: { duration: 0.3 } }}
               >
-                <div className="relative w-full h-80">
+                <div className="relative w-full aspect-[3/4]">
                   <img 
                     src="/images/vivek.jpg" 
                     alt="Vivek Deshmukh" 
